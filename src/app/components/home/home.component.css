@@ -1,0 +1,338 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.seccionUno{
+    /* width: 80%; */
+    height: 1270px;
+    background: rgb(8, 141, 15);
+    margin: 0 auto;
+    max-width: 1230px;
+    min-width: 784px;
+    margin-top: 15px;
+}
+
+.seccionUno h1{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    background: rgb(187, 119, 10);
+    padding: 0;
+    margin: 20px auto;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul li a:hover {
+    background: rgb(6, 79, 92);
+}
+
+.galeria{
+    padding: 0;
+    width: 100%;
+    height: 529px;
+    background: red;
+}
+
+.galeria p{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+.datos{
+    width: 100%;
+    height: 560px;
+    background: blue;
+    margin: auto;
+}
+
+.datos article{
+    width: 270px;
+    height: 530px;
+    background: rgb(100, 99, 3);
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+.datos .dir{
+    background: black;
+}
+
+.datos .dir .sec1{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: green;
+}
+
+.datos .dir .sec1 img{
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.datos .dir .sec1 p{
+    font-size: 20px;
+    padding: 0;
+    margin: 8px;
+}
+
+.datos .dir .sec2 p{
+    float: left;
+}
+
+.datos .dir .sec2 p{
+    font-size: 15px;
+    text-align: justify;
+    color: #e8e8e8;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+.datos .objetivo {
+  background: black;
+}
+
+.datos .objetivo .sec1 {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  float: left;
+  background: green;
+}
+
+.datos .objetivo .sec1 img {
+  height: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.datos .objetivo .sec1 p {
+  font-size: 20px;
+  padding: 0;
+  margin: 8px;
+}
+
+.datos .objetivo .sec2 p {
+  float: left;
+}
+
+.datos .objetivo .sec2 p {
+  font-size: 15px;
+  text-align: justify;
+  color: #e8e8e8;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.datos .objetivo .sec3{
+  margin-top: 260px;
+  width: 100%;
+  height: 48px;
+  float: left;
+  background: green;
+}
+
+.datos .objetivo .sec3 img {
+  height: 100%;
+  width: 48px;
+  float: left;
+  margin-right: 20px;
+  background: blue;
+}
+
+.datos .objetivo .sec3 p {
+  font-size: 13px;
+  text-align: justify;
+  color: #e8e8e8;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+
+.datos .modalidades {
+  background: black;
+}
+
+.datos .modalidades .sec1 {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  float: left;
+  background: green;
+}
+
+.datos .modalidades .sec1 img {
+  height: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.datos .modalidades .sec1 p {
+  font-size: 20px;
+  padding: 0;
+  margin: 8px;
+}
+
+.datos .modalidades .sec2 p {
+  float: left;
+}
+
+.datos .modalidades .sec2 p {
+  font-size: 15px;
+  text-align: justify;
+  color: #e8e8e8;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.datos .modalidades .sec3 {
+  margin-top: 70px;
+  width: 100%;
+  height: 48px;
+  float: left;
+  background: green;
+}
+
+.datos .modalidades .sec3 img {
+  height: 100%;
+  width: 48px;
+  float: left;
+  margin-right: 20px;
+  background: blue;
+}
+
+.datos .modalidades .sec3 p {
+  font-size: 13px;
+  text-align: justify;
+  color: #e8e8e8;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.datos .modalidades .sec4 {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  float: left;
+  background: green;
+}
+
+.datos .modalidades .sec4 ol {
+  /* font-size: 13px; */
+  /* text-align: justify; */
+  color: #e8e8e8;
+  margin: 15px;
+  padding: 10px;
+}
+
+.datos .modalidades .sec4 ol li{
+  font-size: 13px;
+  text-align: left;
+  color: #e8e8e8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------- */
+
+.datos .fechas {
+  background: black;
+}
+
+.datos .fechas .sec1 {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  float: left;
+  background: green;
+}
+
+.datos .fechas .sec1 img {
+  height: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.datos .fechas .sec1 p {
+  font-size: 20px;
+  padding: 0;
+  margin: 8px;
+}
+
+.datos .fechas .sec2 p {
+  float: left;
+}
+
+.datos .fechas .sec2 p {
+  font-size: 15px;
+  text-align: justify;
+  color: #e8e8e8;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.datos .fechas .sec2 p span{
+  color: red;
+}
+
+.datos .fechas .sec3 {
+  margin-top: 180px;
+  width: 100%;
+  height: 48px;
+  float: left;
+  background: green;
+}
+
+.datos .fechas .sec3 img {
+  height: 100%;
+  width: 48px;
+  float: left;
+  margin-right: 20px;
+  background: blue;
+}
+
+.datos .fechas .sec3 a {
+  font-size: 25px;
+  text-align: justify;
+  color: #e8e8e8;
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 5px;
+}
+/* ------------------------------------------------------- */
+footer{
+  width: 100%;
+  height: 80px;
+  background: pink;
+  margin-top: 15px;
+}
+
+footer h4{
+  padding: 15px;
+  font-size: 16px;
+}
